@@ -1,0 +1,7 @@
+interface:
+  display_name: "岗位真相与简历适配"
+  short_description: "解析岗位与公司，并结合工作区简历生成适配分析和面试话术"
+  default_prompt: "使用 $decode-job-and-company 解析这份 JD，并结合当前工作区中的简历分析适配度、能力迁移和面试话术。"
+
+policy:
+  allow_implicit_invocation: true
